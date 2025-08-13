@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 1440;
+    height: 3559;
+    width: 1440;
+    background: black;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    background: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1231px;
+    height: 16px;
+}
+
+    .logo {
+        width: 176px;
+        margin: 4px 0px 0px 104px;
+    }
+
+    .nav {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: white;
+    }
+
+    /*секція falcon*/
+    .falcon {
+        display: flex;
+        height: 1718px;
+        background: #000;
+    }
+
+    .group {
+        padding: 340px 0 0 149px;
+    }
+
+    .main-title {
+        font-size: 50px;
+        font-family: Roboto;
+        font-weight: 400px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        height: 75px;
+        top: 190px;
+        left: 348px;
+        color: white;
+    }
+
+    .main-subtitle {
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: lowercase;
+        color: white;
+        margin: 26px auto;
+        width: 268px;
+        height: 44px;
+    }
+
+    .roket {
+        padding: 50px;
+        font-family: Roboto;
+        font-weight: 700px;
+        font-size: 24px;
+        line-height: 45px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        width: 550px;
+        height: 60px;
+    }
+
+    .falcon-overwiew {
+        height: 360px;
+        width: 603px;
+        background: black;
+        list-style: none;
+
+    }
+
+    .section-title {
+        color: #fff;
+        height: 68px;
+        width: 177px;
+        background: black;
+        font-family: Roboto;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        margin: 218px 0 45px 0 ;
+    }
+
+    .overview-text {
+         display: flex;
+        width: 603px;
+        list-style: none;
+    }
+
+    .falcon-parameters {
+        background: black;
+        list-style: none;
+        width: 35%;
+        color: white;
+    }
+
+    .left-col {
+        background: black;
+        list-style: none;
+        color: white;
+    }
+
+    .right-col {
+        background: black;
+        list-style: none;
+        color: white;
+        margin: 0 0 10px 0;
+    }
+
+
+
+    .section-article {
+        width: 490px;
+        height: 145px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        letter-spacing: 0%;
+    }
+
+    .falcon-parameters-item span{
+        color: rgb(178, 176, 178    );
+    }
+
+
+
+    .main {
+        height: 100px;
+        background: black;
+    }
+
+    .raketa-information {
+        font-family: Roboto;
+        font-weight: 400px;
+        font-size: 20px;
+        line-height: 50px;
+        letter-spacing: 0%;
+        width: 700px;
+        height: 145;
+    }
